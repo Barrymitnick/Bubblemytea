@@ -1,0 +1,6 @@
+.historyCard {
+    /* border: 1px solid; */
+    background-color: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}

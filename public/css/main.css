@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap');
+@import url('https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css');
+@import url('./bootstrap.min.css');
+
+body {
+    /* max-width: 1280px; */
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.cat {
+    position: fixed;
+    height: 200px;
+    bottom: 0px;
+}
+
+.banner {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.title {
+    font-size: 50px;
+    /* margin-top: 40px; */
+    font-weight: bold;
+    /* border: 1px solid; */
+}
+
+.main-btn {
+    background-color: #FA607E;
+    border-color: #FA607E;
+    color: white;
+    /* border-radius: 60px; */
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
+    /* height: 47px; */
+}
+
+.main-btn:hover {
+    background-color: #FA607E;
+    border-color: #FA607E;
+}
+
+.custom-input {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    height: 50px;
+}
+
+.box-input {
+    max-width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.alert-custom {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    min-width: 200px;
+}
+
+.btn-profil {
+    border: none;
+}

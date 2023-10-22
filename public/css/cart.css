@@ -1,0 +1,77 @@
+body {
+    background-image: url('/images/circle.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.btn-cart {
+    align-self: center;
+}
+
+.product-image {
+    height: 130px;
+}
+
+.product-title {
+    font-weight: bold;
+    color: #B5B5B5;
+}
+
+.product-details {
+    /* color: #B5B5B5; */
+    line-height: 8px;
+}
+
+.product-qty {
+    /* color: #B5B5B5; */
+    font-weight: 600;
+}
+
+.product-price {
+    color: #4B55BF;
+    font-weight: 600;
+    align-self: center;
+}
+
+.btn-close {
+    border: none;
+}
+
+.checkout-details,
+.checkout {
+    background-color: #F2F3F5;
+}
+
+.empty-image {
+    height: 300px;
+}
+
+.empty-text {
+    font-weight: bold;
+    /* color: #B5B5B5; */
+    font-size: 30px;
+}
+
+.summary {
+    font-weight: bold;
+    color: #B5B5B5;
+    text-align: left;
+    font-size: 25px;
+}
+
+.sub-details {
+    /* color: #B5B5B5; */
+    text-align: left;
+    line-height: 40px;
+}
+
+#total {
+    font-size: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+}
